@@ -50,6 +50,10 @@ public class APPCliend2 {
     	String forObject = restTemplate.getForObject("http://EUREKACLIENT1/getCliend1/"+name,String.class);
     	return forObject;
     }
+    @RequestMapping("/cliend2dc")
+    public String cliend2dc(){
+    	return "cliend2dc";
+    }
     @Bean
     @LoadBalanced
     public RestTemplate restTemplate(){
