@@ -60,5 +60,6 @@
 		<module>eurekacliend2</module>
 		<module>hystrixserver</module>
 		<module>zullserver</module>
+		<module>quartzserver</module>
 	</modules>
 </project>
